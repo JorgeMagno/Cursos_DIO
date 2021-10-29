@@ -8,7 +8,7 @@
 </h4>
 
 ### Pré-requisitos
-- Caastro na [DIO](https://digitalinnovation.one/).
+- Cadastro na [DIO](https://digitalinnovation.one/).
 - Um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 ### 🛠 Tecnologias
