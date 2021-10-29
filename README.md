@@ -1,6 +1,6 @@
 <h1 align="center">Curso de Introdução a criação de websites com HTML5 e CSS3</h1>
 
-<p align="center">Códigos que criei no curso de HTML e CSS da Digital Inovation One (DIO)</p>
+<p align="center">Códigos que criei no curso de HTML e CSS da Digital Inovation One (DIO) a fim de aprimorar meu conhecimento em desenvolvimento web</p>
 
 ### Status
 <h4 align="center"> 
@@ -8,8 +8,8 @@
 </h4>
 
 ### Pré-requisitos
-Antes de começar, é preciso estar cadastrado na [DIO](https://digitalinnovation.one/).
-Além disto, um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+- Caastro na [DIO](https://digitalinnovation.one/).
+- Um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 ### 🛠 Tecnologias
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
