@@ -1,19 +1,59 @@
 body {
-    background: #ccc;
+    background: rgba(252, 241, 241, 0.863);
+    font-family: Verdana;
 }
 
 #title, .subtitle, .post_title {
-    color: blue;
+    color: rgb(32, 32, 32);
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: rgb(83, 82, 82);
+}
+
+.photo{
+    border: 1px solid rgb(247, 7, 7);
+    border-radius: 50px;
 }
 
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
     background: #FFF;
-    padding: 10px;
-    border: 3px solid #000;
-    margin: 10px;
+    padding: 15px;
+    border: 3px solid rgb(34, 34, 34);
+    margin-bottom: 15px;
+    border-radius: 50px;
 }
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px; 
+    text-transform: capitalize;
+}
+
+.post_image{
+    margin-bottom: 15px;
+}
+
+.contact_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    color: blue;
+    text-decoration: none;
+}
+
