@@ -4,7 +4,7 @@
 
 ### Status
 <h4 align="center"> 
-	:ok: Em andamento :ok:
+	:ok: Finalizado :ok:
 </h4>
 
 ### Pré-requisitos
