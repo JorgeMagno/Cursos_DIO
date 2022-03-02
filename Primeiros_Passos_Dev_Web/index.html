@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>
+            Jorge Magno - Site
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+        <script>
+        $( function() {
+            $( "#accordion" ).accordion({
+                    heightStyle: "content",
+                    collapsible: true
+                });
+            $( "#accordion" ).children('h3').css({
+                'background': 'rgba(252, 241, 241, 0.863)',
+                'color': '#3f3f40',
+                'border': '1px solid black',
+                'font-weight': 'bold'
+                });
+            $( "#accordion" ).children('div').css({
+                'background': 'rgba(252, 241, 241, 0.863)',
+                'color': '#3f3f40'
+                });
+        } );
+        </script>
+    </head>
+    <body>
+        <header> 
+            <img src="foto-perfil.png" alt="Imagem" class="photo">
+            <h1 id="title">Jorge Magno Lopes Moraes</h1>
+        </header>
+        <section>
+            <header>
+                <h2 class="subtitle">Posts</h2>
+            </header>
+            <article class="post">
+                <header>
+                    <h3 class="post_title">Post #1</h3>
+                    <img src="map-of-the-world-g7f2c69b13_1920.jpg" alt="Wallpaper Post" class="post_image">
+                </header>
+                <p class="post_content">
+                    Lorem ipsum dolor sit amet, <a href="https://www.facebook.com/jorge.magno.7/" target="_blank">adipiscing elit</a>. Nullam nisl est, condimentum sit amet sapien a, tincidunt maximus eros. Vivamus egestas mollis ipsum <a href="mailto: jorge@email.com">convallis interdum</a>. Praesent sit amet justo lectus. Maecenas ut viverra nisi. Morbi at velit imperdiet, vulputate ante ac, pellentesque dolor. Aenean fringilla ultrices erat, et sagittis turpis finibus quis. Praesent porttitor eget magna maximus efficitur. Ut sodales erat ultricies odio malesuada, sit amet porta nunc molestie. Nam at nunc at libero pharetra bibendum sed nec enim. Nunc commodo ex nunc, sit amet tristique leo volutpat volutpat. Aenean eu venenatis risus. Phasellus et tristique mauris. Nullam pretium metus et scelerisque accumsan. Duis aliquet pulvinar tempus. Integer magna ante, commodo vel elit eget, rhoncus sagittis diam.
+                </p>
+            </article>
+        </section>
+        <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+              <p>
+              Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+              ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+              amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+              odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+              </p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>
+              Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+              purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+              velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+              suscipit faucibus urna.
+              </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>
+              Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+              Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+              ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+              lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+              </p>
+              <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+              </ul>
+            </div>
+            <h3>Section 4</h3>
+            <div>
+              <p>
+              Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+              et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+              faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+              mauris vel est.
+              </p>
+              <p>
+              Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos.
+              </p>
+            </div>
+          </div>
+        <footer>
+            <h3 class = "title-footer">Contatos:</h3>
+            <ul class="contact_list">
+                <li>
+                    <a href="mailto: jorge@email.com"> jorge@email.com</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/jorge.magno.7/" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://github.com/JorgeMagno" target="_blank">Github</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
