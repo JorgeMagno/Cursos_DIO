@@ -1,0 +1,17 @@
+body{
+    font: 20px Didot, serif;
+}
+
+.navbar{
+    background-color: #e6fbf7 ;
+    padding-bottom: 48px;
+}
+
+.quem-sou{
+    background-color: aquamarine;
+    color: rgb(17, 1, 58);
+}
+
+.margin{
+    padding-bottom: 48px;
+}
