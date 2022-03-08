@@ -4,7 +4,7 @@
 
 ### Status
 <h4 align="center"> 
-	:ok: Desenvolvendo :ok:
+	:ok: Finalizado :ok:
 </h4>
 
 ### Pré-requisitos
