@@ -1,4 +1,4 @@
-<h1 align="center">Curso Contruindo Páginas para a Internet com Bootstrap</h1>
+<h1 align="center">Projeto Recriando a Interface da Netflix</h1>
 
 <p align="center">Projeto desenvolvido na DIO para recriar a interface da Netflix. Aqui resolvi criar a One Plix, plataforma que irá conter os arcos do Anime One Piece</p>
 
