@@ -1,0 +1,220 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #01101f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body {
+    background-color: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin: 4px;
+    color: var(--vermelho);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(250, 220, 124);
+    margin-right: 8px;
+
+}
+
+header nav a:hover{
+    color: var(--vermelho);
+}
+
+/*principal*/
+
+.principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/one-piece-capa.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.titulo {
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: rgb(250, 220, 124);
+    color: var(--preto);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.botao a{
+    color: var(--vermelho);
+    text-decoration: none;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.principal .container{
+    width: 70%;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel {
+    margin-top: 5px;
+}
+
+/*itens do carrosel*/
+.item{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/east-blue.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item2{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/baroque.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item3{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/skypiea.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item4{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/water7.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item5{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/t-bark.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item6{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/sabaody.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item7{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/impel-down.png');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item8{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/marineford.webp');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item9{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/pos-guerra.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item10{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/tritoes.webp');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item11{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/punk-hazard.webp');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item12{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/dressrosa.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item13{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/zou.png');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item14{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/whole-cake.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
+.item15{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/wano.jpg');
+    background-size: cover;
+    width: 100%;
+	height: 500px;
+	position: relative;
+}
