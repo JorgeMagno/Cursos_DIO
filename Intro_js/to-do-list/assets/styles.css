@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+
+* {
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    background-color: rgb(2, 28, 43);
+    color: rgb(8, 175, 180);
+  }
+  
+  button {
+    border: 1px solid rgb(145, 8, 3);
+    border-radius: 5px;
+    background-color: rgb(14, 223, 84);
+    color: rgb(145, 8, 3);
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 24px;
+    background-color: aqua;
+    color: rgb(83, 2, 2);
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  :checked + label {
+    text-decoration: line-through;
+    color: rgb(243, 3, 3);
+  }

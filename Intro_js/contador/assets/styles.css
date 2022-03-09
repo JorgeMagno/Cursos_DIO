@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+
+* {
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(2, 30, 48);
+    color: aquamarine;
+    font-size: 32px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(241, 10, 10);
+    background-color: rgb(117, 39, 39);
+    color: rgb(238, 192, 192);
+    font-size: 24pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 24pt;
+}
