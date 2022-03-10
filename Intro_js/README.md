@@ -1,10 +1,10 @@
-<h1 align="center">Curso Introdição ao JavaScript</h1>
+<h1 align="center">Curso Introdução ao JavaScript</h1>
 
-<p align="center">Pasta com atividades realizadas durante o curso de introdução ao Javascript realizado na DIO.</p>
+<p align="center">Repositório com atividades realizadas durante o curso de introdução ao Javascript realizado na DIO.</p>
 
 ### Status
 <h4 align="center"> 
-	:ok: Desenvolvendo :ok:
+	:ok: Finalizado :ok:
 </h4>
 
 ### Pré-requisitos
